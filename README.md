@@ -1,5 +1,7 @@
 # simple login and session with mongoDB in rust
 
+src > db > mod.rs Change mongodb://localhost:8081 to your MongoDB Database URL
+
 ## index page
 The index page shows Hello, world! if not logged-in
 And shows Hello, <username>!
