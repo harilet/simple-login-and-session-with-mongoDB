@@ -1,0 +1,24 @@
+[package]
+name = "passmage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket_contrib = "0.4.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+time = "0.2.11"
+sha2="0.9.3"
+rand="0.8"
+rocket-session-store = "0.2.0"
+
+[dependencies.rocket]
+version = "0.5.0-rc.2"
+features = ["secrets", "json"] 
+
+[dependencies.mongodb]
+version = "2.0.0-beta.1"
+default-features = false
+features = ["async-std-runtime"]
