@@ -1,4 +1,4 @@
-# simple-login-and-session-with-mongoDB
+# simple login and session with mongoDB in rust
 
 ## index page
 The index page shows Hello, world! if not logged-in
